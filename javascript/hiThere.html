@@ -1,0 +1,23 @@
+
+<html>
+<head>
+<script type="text/javascript">
+
+
+
+function displayDate(ID)
+{
+document.getElementById(ID).innerHTML=Date();
+}
+</script>
+</head>
+<body>
+
+<h1>My First Web Page</h1>
+<p id="demo">This is a paragraph.</p>
+<p id="other">2nd is a paragraph.</p>
+
+<button type="button" onMouseDown="displayDate('demo')" onMouseUp="ID=other;displayDate('other')">Display Date</button>
+
+</body>
+</html> 
